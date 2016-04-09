@@ -8,5 +8,5 @@ services:
     static-server:
         build: static-server
         volumes_from:
-            - transmission:rw
+            - static-server:rw
             - 80:80
