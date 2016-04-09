@@ -9,11 +9,4 @@ services:
         build: static-server
         volumes_from:
             - transmission:rw
-        ports:
             - 80:80
-    static-server2:
-	build: static-server
-        volumes_from:
-           - transmission:rw
-        ports:
-           - 81:81
