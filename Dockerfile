@@ -1,5 +1,5 @@
 FROM resin/raspberrypi2-debian
-MAINTAINER justin@dray.be
+MAINTAINER andrea.ranieri@protonmail.com
 
 # Let's start with some basic stuff.
 RUN apt-get update && apt-get install -y \
