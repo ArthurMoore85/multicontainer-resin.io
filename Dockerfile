@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     
 # Install Docker from hypriot repos
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 37BBEE3F7AD95B3F && \
-    echo "deb https://packagecloud.io/Hypriot/Schatzkiste/debian/ jessie main" > /etc/apt/sources.list.d/hypriot.list && \
+    echo "deb https://packagecloud.io/Hypriot/Schatzkiste/debian/ wheezy main" > /etc/apt/sources.list.d/hypriot.list && \
     apt-get update && \
     apt-get install -y docker-hypriot docker-compose
 
