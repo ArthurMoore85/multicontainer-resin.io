@@ -8,8 +8,4 @@ services:
     static-server:
         build: static-server
         ports:
-            - 80:80
-    static-server:
-        build: static-server
-        ports:
             - 81:81

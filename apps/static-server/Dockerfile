@@ -1,6 +1,6 @@
-FROM resin/armhf-alpine
+FOM resin/armhf-alpine
 
 RUN apk add --update ruby
 
 WORKDIR /downloads
-CMD /usr/bin/ruby -run -ehttpd . -p80
+CMD /usr/bin/ruby -run -ehttpd . -p81
