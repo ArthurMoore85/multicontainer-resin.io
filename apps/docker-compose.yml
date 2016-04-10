@@ -9,7 +9,7 @@ services:
         build: static-server
         ports:
             - 80:80
-    python-server:
-        build: python-server
+    static-server:
+        build: static-server
         ports:
-            - 8000:8000
+            - 81:81
