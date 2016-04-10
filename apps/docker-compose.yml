@@ -7,5 +7,9 @@ volumes:
 services:
     static-server:
         build: static-server
-        volumes_from:
+        ports:
             - 80:80
+    python-server:
+        build: python-server
+        ports:
+            - 8000:8000
